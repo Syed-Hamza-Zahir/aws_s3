@@ -99,3 +99,11 @@ except botocore.exceptions.ClientError as e:
         Bucket='eng114-syed-test-bucket')
 
 ```
+AWS Cloudwatch & SNS
+
+CloudWatch enables you to monitor your complete stack (applications, infrastructure, and services) and use alarms, logs, and events data to take automated actions and reduce mean time to resolution (MTTR). This frees up important resources and allows you to focus on building applications and business value.
+
+# Create SNS notifications on AWS
+To receive email notifications, you will need to create an alarm in Cloudwatch and subscribe to it using your email.
+(for a specific instance click Actions on instance page,
+
