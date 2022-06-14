@@ -1,6 +1,6 @@
 # AWS_s3
 
-# AWS Comnand Line Interface (AWSCLI)
+## AWS Comnand Line Interface (AWSCLI)
 
 Install dependencies:
 ```sudo apt-get install python-pip -y
