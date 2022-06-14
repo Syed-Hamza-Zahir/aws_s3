@@ -99,8 +99,26 @@ except botocore.exceptions.ClientError as e:
         Bucket='eng114-syed-test-bucket')
 
 ```
-AWS Cloudwatch & SNS
+# Alert & Monitoring
+We can monitor all sorts of metrics:
+- error logs
+- budgeting
+- uptime - access time - response time
+- security breaches
+- system test/health
+- instance's health
+- CPU utilisation %
+- Memory utilisation %
 
+
+## AWS Monitoring
+
+Three monitoring services in AWS
+- Cloudwatch - Monitor AWS service
+- SNS - Simple notification
+- SQS - Simple queue service
+-
+We will be working with SNS 
 CloudWatch enables you to monitor your complete stack (applications, infrastructure, and services) and use alarms, logs, and events data to take automated actions and reduce mean time to resolution (MTTR). This frees up important resources and allows you to focus on building applications and business value.
 
 # Create SNS notifications on AWS
